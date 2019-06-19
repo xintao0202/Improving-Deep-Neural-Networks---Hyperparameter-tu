@@ -46,5 +46,8 @@ It is OK not have a test set (only dev set, some people call it test set)
 				very big or very, very small
 	<br/>2) Partial solution: carefully select the weight
 
-1.1 Initialization Practice Project
+1.2 Initialization Practice Project
  - [Initialization Practice Project link](Initialization.ipynb)
+
+1.3 Regularization Practice Project
+- [Regularization Practice Project Link](Regularization+-+v2.ipynb)
