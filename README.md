@@ -45,3 +45,6 @@ It is OK not have a test set (only dev set, some people call it test set)
   <br/>	1) your derivatives or your slopes can sometimes get either very, 
 				very big or very, very small
 	<br/>2) Partial solution: carefully select the weight
+
+1.1 Initialization Practice Project
+ - [Initialization Practice Project link](Initialization.ipynb)
