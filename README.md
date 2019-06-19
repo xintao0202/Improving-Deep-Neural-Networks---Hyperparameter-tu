@@ -33,10 +33,10 @@ It is OK not have a test set (only dev set, some people call it test set)
 					• Causing the neural network to end up with a lower training set error
 			<br/>iv. Why dropout works:Intuition: can't rely on any one feature, so have to spread out weights- shrink weight
       
--		Other regularization methods
-			<br/>i. Data augmentation: rotate image, mirror image, zoom in, distortion, transformation
-			<br/>ii. Early stopping 
-				1) Orthogonalization issue: Optimize cost function J; Not overfit
+- Other regularization methods
+	<br/>i. Data augmentation: rotate image, mirror image, zoom in, distortion, transformation
+	<br/>ii. Early stopping 
+		1) Orthogonalization issue: Optimize cost function J; Not overfit
 
 - Normalization
 	<br/>i. why normalize the input x: Not normalized: elongated hard for gradient descent to reach minimal; makes the cost function faster to optimize
