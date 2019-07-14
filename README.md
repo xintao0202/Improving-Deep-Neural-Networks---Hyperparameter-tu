@@ -53,4 +53,4 @@ It is OK not have a test set (only dev set, some people call it test set)
 - [Regularization Practice Project Link](Regularization+-+v2.ipynb)
 
 1.4 Gradient Checking Practice Projact
-- [Regularization Practice Project Link](Gradient Checking.ipynb)
+- [Regularization Practice Project Link](Gradient_Checking.ipynb)
