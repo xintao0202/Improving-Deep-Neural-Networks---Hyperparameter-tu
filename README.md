@@ -54,3 +54,20 @@ It is OK not have a test set (only dev set, some people call it test set)
 
 1.4 Gradient Checking Practice Projact
 - [Gradient Checking Project Link](Gradient%20Checking.ipynb)
+
+2.1 Optimization Algorithms
+- Notations: {t}: minibatch number; [l]: layer number; (m): example number 
+- One iteration of mini-batch gradient descent (computing on a single mini-batch) is faser than one iteration of batch gradient descent
+- Choosing mini-batch size:
+<br/>i. if the mini-batch size is m, you end up with batch gradient descent, which has to process the whole training set before making progress
+<br/>ii. if the mini-batch size is 1, you lose the benefits of vectorization across examples in the mini-batch
+- Cost decay: it is ok to have mini-batch gradient descent jumping up and down, but not for batch gradient descent.
+- Bias correction: Vt/(1-beta^t)
+- Learning rate decay scheme: exponential, k/sqrt(t), discrete, manual change
+- Exponentially weighted average plot: increasing beta will shift the fit to the right and more smooth; decreasing beta will create more oscillations. 
+- Tuning beta in gradient descent with momentum: beta act as friction to the velocity to prevent the ball rolling to the wrong direction; the larger the beta, the better the ball swith back to the right direction to the optima
+- Optimze method to get smaller value for cost function (in a shorter time): mini-batch; Adam; Better random initialization for the weights; tuning learning rate
+- Adam:
+<br/>i. combines the advantages of RMSprob and momentum
+<br/>ii. usually use default values for beta1=0.9, beta2=0.999, epsilon=10^-8
+<br/>iii. the learning rate usually needs to be tuned.
