@@ -71,3 +71,5 @@ It is OK not have a test set (only dev set, some people call it test set)
 <br/>i. combines the advantages of RMSprob and momentum
 <br/>ii. usually use default values for beta1=0.9, beta2=0.999, epsilon=10^-8
 <br/>iii. the learning rate usually needs to be tuned.
+2.2 Optimization Algorithms Project
+- [Gradient Checking Project Link](Optimization_methods_v1b.ipynb)
