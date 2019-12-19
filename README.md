@@ -74,3 +74,12 @@ It is OK not have a test set (only dev set, some people call it test set)
 
 2.2 Optimization Algorithms Project
 - [Gradient Checking Project Link](Optimization_methods_v1b.ipynb)
+
+3.1 Hyperparameter tuning
+- if you think \betaβ (hyperparameter for momentum) is between on 0.9 and 0.99, sample beta : r=np.random.rand(), beta=1-10**(-r-1)
+3.2 Batch Norm:
+<br/>i. They set the mean and variance of the linear variable z[l] of a given layer
+<br/>ii. They can be learned using Adam, Gradient descent with momentum, or RMSprop, not just with gradient descent.
+3.3 Deep Learning frameworks
+- Even if a project is currently open source, good governance of the project helps ensure that the it remains open even in the long term, rather than become closed or modified to benefit only one company.
+- A programming framework allows you to code up deep learning algorithms with typically fewer lines of code than a lower-level language such as Python.
