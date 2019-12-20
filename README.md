@@ -85,3 +85,6 @@ It is OK not have a test set (only dev set, some people call it test set)
 3.3 Deep Learning frameworks
 - Even if a project is currently open source, good governance of the project helps ensure that the it remains open even in the long term, rather than become closed or modified to benefit only one company.
 - A programming framework allows you to code up deep learning algorithms with typically fewer lines of code than a lower-level language such as Python.
+
+3.4 Tensorflow Project
+- [Tensorflow Project Link](TensorFlow_Tutorial_v3b.ipynb)
