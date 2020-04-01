@@ -63,7 +63,7 @@ It is OK not have a test set (only dev set, some people call it test set)
 <br/>ii. if the mini-batch size is 1, you lose the benefits of vectorization across examples in the mini-batch
 - Cost decay: it is ok to have mini-batch gradient descent jumping up and down, but not for batch gradient descent.
 - Bias correction: Vt/(1-beta^t)
-- Learning rate decay scheme: exponential, k/sqrt(t), discrete, manual change
+- Learning rate decay scheme: 1/(1+decayrate*epochNumber), exponential(base need to be less than 1, otherwise explode), k/sqrt(t), discrete, manual change
 - Exponentially weighted average plot: increasing beta will shift the fit to the right and more smooth; decreasing beta will create more oscillations. 
 - Tuning beta in gradient descent with momentum: beta act as friction to the velocity to prevent the ball rolling to the wrong direction; the larger the beta, the better the ball swith back to the right direction to the optima
 - Optimze method to get smaller value for cost function (in a shorter time): mini-batch; Adam; Better random initialization for the weights; tuning learning rate
